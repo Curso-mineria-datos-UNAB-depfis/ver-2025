@@ -1,3 +1,4 @@
+
 # Curso de Minería de Datos - UNAB DepFis
 
 ¡Bienvenidos al curso de Minería de Datos del Departamento de Física de la Universidad Andrés Bello (UNAB)! 🎓  
@@ -31,8 +32,27 @@ Este repositorio está organizado por **cohortes** y **módulos**.
 Cada cohorte tiene su propia carpeta para los módulos y las entregas de proyectos.  
 
 ### Estructura del Repositorio
-Curso-mineria-datos-UNAB-depfis/ │ ├── README.md # Introducción general al curso ├── requisitos.txt # Lista de dependencias necesarias ├── cohortes/ │ ├── 2024/ │ │ ├── modulo_1/ │ │ ├── modulo_2/ │ │ ├── modulo_3/ │ │ └── entregas/ │ │ ├── estudiante1/ │ │ └── estudiante2/ │ └── 2025/ │ ├── modulo_1/ │ ├── modulo_2/ │ ├── modulo_3/ │ └── entregas/ │ └── evaluaciones/ # Proyectos finales y rúbricas
-
+```
+Curso-mineria-datos-UNAB-depfis/
+│
+├── README.md                 # Introducción general al curso
+├── requisitos.txt            # Lista de dependencias necesarias
+├── cohortes/
+│   ├── 2024/
+│   │   ├── modulo_1/
+│   │   ├── modulo_2/
+│   │   ├── modulo_3/
+│   │   └── entregas/
+│   │       ├── estudiante1/
+│   │       └── estudiante2/
+│   └── 2025/
+│       ├── modulo_1/
+│       ├── modulo_2/
+│       ├── modulo_3/
+│       └── entregas/
+│
+└── evaluaciones/             # Proyectos finales y rúbricas
+```
 
 ### Acceso y Roles  
 - Cada estudiante tendrá acceso a su carpeta de entregas correspondiente dentro de su cohorte.  
@@ -46,3 +66,40 @@ Curso-mineria-datos-UNAB-depfis/ │ ├── README.md # Introducción general
    Para empezar, clona este repositorio en tu equipo local:  
    ```bash
    git clone https://github.com/tu_usuario/Curso-mineria-datos-UNAB-depfis.git
+   ```
+
+2. **Configurar Entorno**  
+   Instala las dependencias necesarias ejecutando:
+   ```bash
+   pip install -r requisitos.txt
+   ```
+
+3. **Uso de Git**  
+   Asegúrate de trabajar en tu carpeta asignada y realizar los commits siguiendo las instrucciones del módulo.  
+
+4. **Entregas de Proyectos**  
+   - Cada módulo incluirá un proyecto final que debes subir a tu carpeta de entregas antes de la fecha límite.  
+   - Usa este comando para subir tus cambios:
+     ```bash
+     git add .
+     git commit -m "Entrega del proyecto X"
+     git push origin main
+     ```
+
+---
+
+## **Recursos Adicionales**
+
+- [Kaggle](https://www.kaggle.com)  
+- [Documentación de BigQuery](https://cloud.google.com/bigquery/docs)  
+- [Scikit-learn](https://scikit-learn.org/stable/)  
+- [TensorFlow](https://www.tensorflow.org/)  
+- [PyTorch](https://pytorch.org/)  
+
+---
+
+## **Contacto**
+
+Profesor: Eduardo Jeraldo
+Correo: e.jeraldo@uandresbello.edu
+Departamento de Física, Universidad Andrés Bello  
